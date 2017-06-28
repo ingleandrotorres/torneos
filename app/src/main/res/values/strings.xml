@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Torneos</string>
+    <string name="asf">"hp "</string>
+
+
+    <string-array name="array_equipos">
+        <item>-Seleccione el equipo-</item>
+        <item>Chelsea</item>
+        <item>Bayer</item>
+        <item>Manchester United</item>
+        <item>Dortmund</item>
+        <item>Leicester</item>
+        <item>Juventus</item>
+        <item>Arsenal</item>
+        <item>Barcelona</item>
+        <item>Atletico</item>
+        <item>Real Madrid</item>
+        <item>Manchester City</item>
+        <item>Napoli</item>
+        <item>PSG</item>
+        <item>Nacional</item>
+    </string-array>
+
+
+    <string name="title_activity_index">Torneos</string>
+
+
+</resources>

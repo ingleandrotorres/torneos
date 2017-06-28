@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="csg.com.torneos.tabla">
+
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <!-- Here you put the rest of your current view-->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="17"
+                android:id="@+id/tablalayout"
+
+                android:background="@color/colorPrimaryDark">
+
+                <TableRow android:background="@android:color/holo_blue_bright">
+                    <TextView
+                        android:text="#"
+                        android:padding="3dip"
+                        />
+                    <TextView
+                        android:text="Torneo"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="idPartido"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="equipo1"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="equipo2"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="fecha"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="t1"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="t2"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="marcador1"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="marcador2"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="p1"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="p2"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="inv1"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="inv2"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="estado"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="pts1"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="pts2"
+                        android:padding="3dip" />
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

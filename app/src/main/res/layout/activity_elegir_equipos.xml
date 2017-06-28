@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="csg.com.torneos.elegir_equipos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tecnico 1 (Edwin)"
+        android:id="@+id/tecnico1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT1E1"
+        android:layout_below="@+id/tecnico1"
+        android:layout_alignLeft="@+id/tecnico1"
+        android:layout_alignStart="@+id/tecnico1"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT1E2"
+        android:layout_below="@+id/selectEquiposT1E1"
+        android:layout_alignLeft="@+id/selectEquiposT1E1"
+        android:layout_alignStart="@+id/selectEquiposT1E1"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT1E3"
+        android:layout_below="@+id/selectEquiposT1E2"
+        android:layout_alignLeft="@+id/selectEquiposT1E2"
+        android:layout_alignStart="@+id/selectEquiposT1E2" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT1E4"
+        android:layout_below="@+id/selectEquiposT1E3"
+        android:layout_alignLeft="@+id/selectEquiposT1E3"
+        android:layout_alignStart="@+id/selectEquiposT1E3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tecnico 2 (Cesar)"
+        android:id="@+id/tecnico2"
+        android:layout_below="@+id/selectEquiposT1E4"
+        android:layout_alignLeft="@+id/selectEquiposT1E4"
+        android:layout_alignStart="@+id/selectEquiposT1E4" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT2E1"
+        android:layout_below="@+id/tecnico2"
+        android:layout_alignLeft="@+id/tecnico2"
+        android:layout_alignStart="@+id/tecnico2"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT2E2"
+        android:layout_below="@+id/selectEquiposT2E1"
+        android:layout_alignLeft="@+id/selectEquiposT2E1"
+        android:layout_alignStart="@+id/selectEquiposT2E1"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT2E3"
+        android:layout_below="@+id/selectEquiposT2E2"
+        android:layout_alignLeft="@+id/selectEquiposT2E2"
+        android:layout_alignStart="@+id/selectEquiposT2E2" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT2E4"
+        android:layout_below="@+id/selectEquiposT2E3"
+        android:layout_alignLeft="@+id/selectEquiposT2E3"
+        android:layout_alignStart="@+id/selectEquiposT2E3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tecnico 3 (Jairo)"
+        android:id="@+id/tecnico3"
+        android:layout_below="@+id/selectEquiposT2E4"
+        android:layout_alignLeft="@+id/selectEquiposT2E4"
+        android:layout_alignStart="@+id/selectEquiposT2E4" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT3E1"
+        android:layout_below="@+id/tecnico3"
+        android:layout_alignLeft="@+id/tecnico3"
+        android:layout_alignStart="@+id/tecnico3"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT3E2"
+        android:layout_below="@+id/selectEquiposT3E1"
+        android:layout_alignLeft="@+id/selectEquiposT3E1"
+        android:layout_alignStart="@+id/selectEquiposT3E1"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT3E3"
+        android:layout_below="@+id/selectEquiposT3E2"
+        android:layout_alignLeft="@+id/selectEquiposT3E2"
+        android:layout_alignStart="@+id/selectEquiposT3E2" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectEquiposT3E4"
+        android:layout_below="@+id/selectEquiposT3E3"
+        android:layout_alignLeft="@+id/selectEquiposT3E3"
+        android:layout_alignStart="@+id/selectEquiposT3E3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Torneo"
+        android:id="@+id/buttonSeleccionarEquipos"
+        android:layout_below="@+id/selectEquiposT3E4"
+        android:layout_alignLeft="@+id/selectEquiposT3E4"
+        android:layout_alignStart="@+id/selectEquiposT3E4" />
+
+
+</RelativeLayout>

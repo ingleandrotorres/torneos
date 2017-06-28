@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="csg.com.torneos.resultados">
+
+    <TextView
+        android:id="@+id/labelgrupoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grupo A"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:id="@+id/jornada1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/my_borde"
+        >
+
+    <TextView
+        android:id="@+id/fecha1_equipoA_T1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nombre equipo A T1"
+        android:padding="10dp"
+
+        />
+    <TextView
+        android:id="@+id/fecha1_equipoA_T1_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/fecha1_equipoA_T2_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/fecha1_equipoA_T2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nombre equipo A T2"
+        android:padding="10dp"
+        />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/jornada2"
+        android:background="@drawable/my_borde"
+        >
+
+    <TextView
+        android:id="@+id/fecha2_equipoA_T1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nombre equipo A T1"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/fecha2_equipoA_T1_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/fecha2_equipoA_T3_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/fecha2_equipoA_T3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nombre equipo A T3"
+        android:padding="10dp"
+        />
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/jornada3"
+        android:background="@drawable/my_borde"
+
+        >
+    <TextView
+        android:id="@+id/fecha3_equipoA_T3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nombre equipo A T3"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/fecha3_equipoA_T3_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/fecha3_equipoA_T2_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/fecha3_equipoA_T2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nombre equipo A T2"
+        android:padding="10dp"
+        />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/labelgrupob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grupo B"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/jornada4"
+        android:background="@drawable/my_borde"
+        >
+
+        <TextView
+            android:id="@+id/fecha1_equipoB_T1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo B T1"
+            android:padding="10dp"
+
+            />
+        <TextView
+            android:id="@+id/fecha1_equipoB_T1_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/fecha1_equipoB_T2_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha1_equipoB_T2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo B T2"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/jornada5"
+        android:background="@drawable/my_borde"
+        >
+
+        <TextView
+            android:id="@+id/fecha2_equipoB_T1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo B T1"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha2_equipoB_T1_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha2_equipoA_TB_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha2_equipoB_T3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo B T3"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/jornada6"
+        android:background="@drawable/my_borde"
+
+        >
+        <TextView
+            android:id="@+id/fecha3_equipoB_T3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo B T3"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha3_equipoB_T3_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha3_equipoB_T2_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha3_equipoB_T2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo B T2"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/labelgrupoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grupo C"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/jornada7"
+        android:background="@drawable/my_borde"
+        >
+
+        <TextView
+            android:id="@+id/fecha1_equipoC_T1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo C T1"
+            android:padding="10dp"
+
+            />
+        <TextView
+            android:id="@+id/fecha1_equipoC_T1_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/fecha1_equipoC_T2_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha1_equipoC_T2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo C T2"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/jornada8"
+        android:background="@drawable/my_borde"
+        >
+
+        <TextView
+            android:id="@+id/fecha2_equipoC_T1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo C T1"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha2_equipoC_T1_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha2_equipoC_T3_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha2_equipoC_T3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo C T3"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/jornada9"
+        android:background="@drawable/my_borde"
+
+        >
+        <TextView
+            android:id="@+id/fecha3_equipoC_T3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo C T3"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha3_equipoC_T3_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha3_equipoC_T2_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha3_equipoC_T2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo C T2"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/labelgrupod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grupo D"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/jornada10"
+        android:background="@drawable/my_borde"
+        >
+
+        <TextView
+            android:id="@+id/fecha1_equipoD_T1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo D T1"
+            android:padding="10dp"
+
+            />
+        <TextView
+            android:id="@+id/fecha1_equipoD_T1_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/fecha1_equipoD_T2_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha1_equipoD_T2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo D T2"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/jornada11"
+        android:background="@drawable/my_borde"
+        >
+
+        <TextView
+            android:id="@+id/fecha2_equipoD_T1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo D T1"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha2_equipoD_T1_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha2_equipoD_T3_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha2_equipoD_T3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo D T3"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/jornada12"
+        android:background="@drawable/my_borde"
+
+        >
+        <TextView
+            android:id="@+id/fecha3_equipoD_T3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo D T3"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha3_equipoD_T3_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha3_equipoD_T2_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/fecha3_equipoD_T2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Nombre equipo D T2"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/labelcuartos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuartos"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/jornada13"
+            android:background="@drawable/my_borde"
+            >
+
+            <TextView
+                android:id="@+id/primeroGA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Primer lugar grupo A"
+                android:padding="10dp"
+
+                />
+            <TextView
+                android:id="@+id/primeroGA_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/segundoGD_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/segundoGD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Segundo lugar D "
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/jornada14"
+            android:background="@drawable/my_borde"
+            >
+
+            <TextView
+                android:id="@+id/primeroGB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Primer lugar grupo B"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/primeroGB_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/segundoGC_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/segundoGC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Segundo lugar C"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/jornada15"
+            android:background="@drawable/my_borde"
+
+            >
+            <TextView
+                android:id="@+id/primeroGC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Primer lugar grupo C"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/primeroGC_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/segundoGB_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/segundoGB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Segundo lugar B"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/jornada16"
+            android:background="@drawable/my_borde"
+
+            >
+            <TextView
+                android:id="@+id/primeroGD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Primer lugar grupo D"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/primeroGD_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/segundoGA_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/segundoGA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Segundo lugar A"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/labelsemifinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semifinal"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/jornada17"
+            android:background="@drawable/my_borde"
+            >
+
+            <TextView
+                android:id="@+id/ganadorCuartosAD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Ganador Cuartos AD"
+                android:padding="10dp"
+
+                />
+            <TextView
+                android:id="@+id/ganadorCuartosAD_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/ganadorCuartosBC_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/ganadorCuartosBC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Ganador Cuartos BC"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/jornada18"
+            android:background="@drawable/my_borde"
+            >
+
+            <TextView
+                android:id="@+id/ganadorCuartosCB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ganador Cuartos CB"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/ganadorCuartosCB_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/ganadorCuartosDA_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/ganadorCuartosDA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Ganador Cuartos DA"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/labelfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FINAL si no esta aquí no es nadie"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/jornada19"
+            android:background="@drawable/my_borde"
+            >
+
+            <TextView
+                android:id="@+id/ganadorSemifinalADBC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Ganador Cuartos AD"
+                android:padding="10dp"
+
+                />
+            <TextView
+                android:id="@+id/ganadorSemifinalADBC_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/ganadorSemifinalCBDA_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/ganadorSemifinalCBDA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Ganador Cuartos BC"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

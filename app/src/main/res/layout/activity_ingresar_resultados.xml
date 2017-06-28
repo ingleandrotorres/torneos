@@ -1,0 +1,187 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="csg.com.torneos.resultados">
+
+        <TextView
+            android:id="@+id/labelgrupoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Partido Seleccionado"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/my_borde"
+            >
+
+            <TextView
+                android:id="@+id/equipo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Nombre equipo A T1"
+                android:padding="10dp"
+
+                />
+            <TextView
+                android:id="@+id/equipo1_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/equipo2_resultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/equipo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="Nombre equipo A T2"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/my_borde"
+        android:layout_gravity="center"
+        >
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/mas1"
+            />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/menos1"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/mas1"
+            android:layout_toEndOf="@+id/mas1" />
+
+
+
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/mas2"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/menos2"
+            android:layout_toStartOf="@+id/menos2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/menos2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/my_borde"
+            >
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:id="@+id/guardarPartido" />
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver Goleadores"
+                android:id="@+id/verEstadisticas" />
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver tablas"
+                android:id="@+id/vertabla" />
+
+
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/puntoInvisible"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E1"
+                android:id="@+id/radioButtonE1"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E2"
+                android:id="@+id/radioButtonE2"
+                android:layout_centerVertical="true"
+                android:layout_alignRight="@+id/radioButton"
+                android:layout_alignEnd="@+id/radioButton" />
+        </RadioGroup>
+
+        <!--<ImageView
+            android:layout_width="102dp"
+            android:layout_height="91dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/maximo_goleador" />-->
+
+        <CheckedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Jugador"
+            android:id="@+id/checkedTextView"
+            android:layout_gravity="center_horizontal"
+            android:checked="false" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:orientation="vertical"
+            android:background="#CCCCCC"
+
+             />
+
+    </LinearLayout>
+
+</ScrollView>

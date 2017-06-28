@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="csg.com.torneos.tablaGoleadores">
+
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <!-- Here you put the rest of your current view-->
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="10"
+        android:id="@+id/tablalayoutgoleadores"
+
+            android:background="@color/colorPrimaryDark">
+
+        <TableRow android:background="@android:color/holo_blue_bright">
+            <TextView
+                android:text="#"
+                android:padding="3dip"
+                />
+            <TextView
+                android:text="Jugador"
+                android:padding="3dip" />
+            <TextView
+                android:text="Equipo"
+                android:padding="3dip" />
+            <TextView
+                android:text="Goles"
+                android:padding="3dip" />
+            <TextView
+                android:text="TA"
+                android:padding="3dip" />
+            <TextView
+                android:text="TR"
+                android:padding="3dip" />
+            <TextView
+                android:text="LA"
+                android:padding="3dip" />
+            <TextView
+                android:text="LR"
+                android:padding="3dip" />
+            <TextView
+                android:text="AG-"
+                android:padding="3dip" />
+        </TableRow>
+
+<!--
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="5"
+                android:id="@+id/tablalayoutgoleadores2">
+
+
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/goleadores"
+                        android:text="nummm \n nummm "
+                        android:padding="3dip"
+                        />
+                </TableRow>
+            </TableLayout>-->
+    </TableLayout>
+
+</HorizontalScrollView>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

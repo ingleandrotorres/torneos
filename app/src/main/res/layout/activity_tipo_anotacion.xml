@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="csg.com.torneos.tipo_anotacion">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gol"
+        android:src="@drawable/balon"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/autogol"
+        android:src="@drawable/balon"
+        android:background="#F01100"
+
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="106dp"
+        android:layout_marginEnd="106dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amarilla"
+        android:src="@drawable/falta"
+        android:background="#FFFF00"
+
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/gol"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/roja"
+        android:src="@drawable/falta"
+        android:background="#F01100"
+        android:layout_alignTop="@+id/amarilla"
+        android:layout_alignLeft="@+id/autogol"
+        android:layout_alignStart="@+id/autogol" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecionAmarilla"
+        android:src="@drawable/lecion"
+        android:background="#FFFF00"
+
+        android:layout_alignTop="@+id/lecionRoja"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecionRoja"
+        android:src="@drawable/lecion"
+        android:background="#F01100"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/roja"
+        android:layout_alignLeft="@+id/roja"
+        android:layout_alignStart="@+id/roja" />
+</RelativeLayout>
