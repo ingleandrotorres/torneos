@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.GruposFragment">
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginLeft="@dimen/space_component3x"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="@dimen/space_component3x"
+            android:layout_marginBottom="3dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_component3x"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="@dimen/space_component3x"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="5"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/llEquipo1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imagenEquipo1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/escudo_100" />
+
+                    <TextView
+                        android:id="@+id/tEquipo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imagenEquipo1"
+                        android:layout_marginTop="@dimen/space_component3x"
+                        android:layout_marginRight="5dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Nombre del Equipo"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/txtPequeño" />
+
+                    <TextView
+                        android:id="@+id/tTecnico1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tEquipo1"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Nombre del tecnico"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/txtPequeño" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rlResultadoEquipo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_check_box" />
+
+                    <TextView
+                        android:id="@+id/tResultadoNumeroEquipo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toLeftOf="@+id/tvDate"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/tResultadoPenalesNumeroEquipo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toLeftOf="@+id/tvDate"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="0"
+                        android:visibility="gone"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/rlResultadoEquipo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_check_box" />
+
+                    <TextView
+                        android:id="@+id/tResultadoNumeroEquipo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toLeftOf="@+id/tvDate"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/tResultadoPenalesNumeroEquipo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toLeftOf="@+id/tvDate"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="0"
+                        android:visibility="gone"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_component3x"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="@dimen/space_component3x"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="5"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/llEquipo2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imagenEquipo2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/escudo_100" />
+
+                    <TextView
+                        android:id="@+id/tEquipo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imagenEquipo2"
+                        android:layout_marginTop="@dimen/space_component3x"
+                        android:layout_marginRight="5dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Nombre del Equipo"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/txtPequeño" />
+
+                    <TextView
+                        android:id="@+id/tTecnico2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tEquipo2"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Nombre del tecnico"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/txtPequeño" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</FrameLayout>
